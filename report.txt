@@ -1,0 +1,19 @@
+REPORT FILE: ./file_test/test11.gtf
+
+Errore alla linea: 14. Campo <frame> non corretto, trovato: *
+	Possibile soluzione: ['0', '1', '2', '.']
+Errore alla linea: 16. Campo <feature> non corretto, trovato: err
+	Possibile soluzione: ['CDS', 'start_codon', 'stop_codon', '5UTR', '3UTR', 'inter', 'inter_CNS', 'intron_CNS', 'exon']
+Errore alla linea: 18. Campo <source> non e' unico, trovato: VEGA_VEGA
+	Possibile soluzione: VEGA_Known (stimato statisticamente)
+Errore alla linea: 27. Campo <seqname> non corretto, trovato: ENm007
+	Possibile soluzione: ENm006 (stimato statisticamente)
+Errore alla linea: 29. <start> o <end> non corretto, trovato: 99999 63959
+	Possibile soluzione: start <= end
+Errore alla linea: 33. Campo <strand> non corretto, trovato: *
+	Possibile soluzione: ['+', '-']
+Errore alla linea: 37. Campo <attributes> non corretto, trovato: transcript_id "U52112.4-014";
+	Non rispetta le specifiche
+Errore alla linea: 38. Campo <score> non corretto, trovato: /
+	Dovrebbe essere floating point number, integer o un punto
+Errore alla linea: 40. Numero dei campi non rispettato
